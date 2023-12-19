@@ -4,8 +4,8 @@
 ## Description
 This repository includes a simple gym website built using HTML and CSS.Which includes the header footer section and also a contact form. 
 ## Features
--Clean and responsive design optimized for various devices.
--Attractive hero section showcasing your gym's essence
+- Clean and responsive design optimized for various devices.
+- Attractive hero section showcasing your gym's essence.
 - Contact form for easy inquiries.
 - Built with love using HTML & CSS.
 
