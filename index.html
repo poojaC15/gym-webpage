@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<style>
+    /*css reser*/
+    body {
+        color: aliceblue;
+        margin: 0px;
+        padding: 0px;
+        background: url('img.jpg');
+        height: 330px;
+    }
+
+    .left {
+       /* border: 2px solid blanchedalmond;*/
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        text-align: center;
+
+    }
+
+    .left img {
+        width: 22px;
+        filter: invert(100%);
+
+    }
+
+    .mid {
+        display: block;
+        width: 60%;
+        margin: 29px auto;
+
+       /* border: 2px solid rgb(220, 120, 185);*/
+
+
+    }
+
+    .right {
+        position: absolute;
+        right: 3px;
+        top: 20px;
+       /* border: 2px solid rgb(114, 220, 139);*/
+        display: inline-block;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 15px;
+
+
+
+
+    }
+
+    .navbar li a {
+        color: azure;
+        padding: 23px 20px;
+        text-decoration: none;
+        text-align: center;
+
+
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: blue;
+
+
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: aliceblue;
+        background-color: black;
+        padding: 4px 5px;
+        border-radius: 10px;
+        border: 2px solid pink;
+        font-size: 10px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover {
+        background-color: rgb(195, 182, 182);
+    }
+
+    .container {
+        /*border: 2px solid red;*/
+        margin: 2px;
+        margin-top: 50px;
+        padding: 10px 10px;
+        width: 40%;
+        height: 80%;
+        border-radius: 10px;
+    }
+
+    .form.group input {
+        text-align: center;
+        margin: 7px auto;
+        display: block;
+        width: 80%;
+        padding: 7px;
+        border-radius: 6px;
+        border: 2px solid black;
+        font-size: 14px;
+
+    }
+
+    .container button {
+        display: block;
+        width: 80%;
+        margin: 15px auto;
+
+    }
+</style>
+
+<body>
+    <header class="head">
+        <!--left is for-->
+        <div class="left">
+            <img src="logo.png" alt="">
+            <div>Fitness</div>
+        </div>
+        <!--mid is for nevigation bar-->
+        <div class="mid">
+
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness </a></li>
+                <li><a href="#">Contact Us</a></li>
+
+            </ul>
+
+        </div>
+        <!--the right is for button-->
+        <div class="right">
+            <button class="btn">Call us Now</button>
+            <button class="btn">Email Us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>Welcome in our Gym</h1>
+        <form action="noaction.php">
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter Your Name">
+
+            </div>
+           <div class="form group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter Your Email">
+            </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <button class="btn">Submit Now</button>
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
