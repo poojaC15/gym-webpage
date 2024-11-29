@@ -24,9 +24,11 @@ This repository includes a simple gym website built using HTML and CSS.Which inc
 - Consider adding JavaScript for interactivity and animations.
 - Remember to replace the placeholder content with your gym's information..
 
+## View Web page
+https://poojac15.github.io/gym-webpage/
 
 ## Author
 - Pooja Chaudhary
-- poojaa15000@gmail.com
+- poojachaudharyy03@gmail.com
 
 ---
